@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-calculator/static/css/main.9e40860f.chunk.css",
+    "main.js": "/react-calculator/static/js/main.a751195c.chunk.js",
+    "main.js.map": "/react-calculator/static/js/main.a751195c.chunk.js.map",
+    "runtime~main.js": "/react-calculator/static/js/runtime~main.afaf0077.js",
+    "runtime~main.js.map": "/react-calculator/static/js/runtime~main.afaf0077.js.map",
+    "static/js/2.9a696b8f.chunk.js": "/react-calculator/static/js/2.9a696b8f.chunk.js",
+    "static/js/2.9a696b8f.chunk.js.map": "/react-calculator/static/js/2.9a696b8f.chunk.js.map",
+    "index.html": "/react-calculator/index.html",
+    "precache-manifest.3bfcf91929fec05760fb55d0dc800802.js": "/react-calculator/precache-manifest.3bfcf91929fec05760fb55d0dc800802.js",
+    "service-worker.js": "/react-calculator/service-worker.js",
+    "static/css/main.9e40860f.chunk.css.map": "/react-calculator/static/css/main.9e40860f.chunk.css.map",
+    "static/media/styles.css": "/react-calculator/static/media/robot-507811_1920.0363f38f.jpg"
+  }
+}
