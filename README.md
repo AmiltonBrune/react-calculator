@@ -8,7 +8,7 @@ de uma calculadora.
 
 Esse é o resultado final:
 
-![](../screenshots/calculadora.PNG)
+![](../calculadora.png)
 
 Link: https://amiltonbrune.github.io/react-calculator/
 
