@@ -151,3 +151,7 @@ body {
 .btn--operator {
   color: var(--color-orange);
 }
+
+.alert-text {
+  margin-top: 50px;
+}

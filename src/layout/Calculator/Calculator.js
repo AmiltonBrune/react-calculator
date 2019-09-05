@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Modal from "react-responsive-modal";
 
 import Screen from "./Screen/Screen";
 import Keypad from "./Keypad/Keypad";
@@ -6,7 +7,8 @@ import Keypad from "./Keypad/Keypad";
 class Calculator extends Component {
   state = {
     equation: "",
-    result: 0
+    result: 0,
+    open: false
   };
 
   onButtonPress = event => {
@@ -30,7 +32,7 @@ class Calculator extends Component {
           : evalResult.toFixed(2);
         this.setState({ result });
       } catch (error) {
-        alert("Invalid Mathematical Equation");
+        this.setState({ open: true });
       }
     } else {
       equation = equation.trim();
@@ -44,11 +46,20 @@ class Calculator extends Component {
     this.setState({ equation: "", result: 0 });
   }
 
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
+
   render() {
     return (
       <main className="calculator">
         <Screen equation={this.state.equation} result={this.state.result} />
         <Keypad onButtonPress={this.onButtonPress} />
+        <Modal open={this.state.open} onClose={this.onCloseModal} center>
+          <div>
+            <h2 className="alert-text">Invalid Mathematical Equation</h2>
+          </div>
+        </Modal>
       </main>
     );
   }
